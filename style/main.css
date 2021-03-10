@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+html input, html input:focus, html button, html button:focus {
+  outline: 0;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: calc(100vh - 70px);
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(45deg, #00a5cf, #FF1053);
+}
+
+.login .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+  height: 90%;
+  width: 70%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login .form h2 {
+  padding: 15px;
+}
+
+.login .form form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login .form form input {
+  margin: 20px;
+  padding: 10px;
+  width: 70%;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.login .form form button {
+  width: 70%;
+  padding: 20px;
+  margin: 10px;
+  border: 0;
+  background-color: #00a5cf;
+  font-size: 20px;
+  color: white;
+}
+
+.login .form form span {
+  padding: 10px;
+  opacity: 0.7;
+}
+
+.login .form form a {
+  padding: 10px;
+  opacity: 0.8;
+  color: black;
+}
+
+.login .form form ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.login .form form ul li {
+  list-style: none;
+  width: 20px;
+  margin: 15px 10px;
+  opacity: .7;
+  height: 20px;
+}
+
+.login .form form ul li svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (min-width: 700px) {
+  .login .form {
+    width: 400px;
+  }
+}
+
+header {
+  height: 70px;
+  width: 100%;
+}
+
+header nav {
+  height: 100%;
+  background: white;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 25px;
+}
+
+header nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .nav-links {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .nav-links li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+header nav .nav-links li a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+main {
+  height: calc(100vh - 70px);
+  width: 100%;
+}
+
+main .hero-image {
+  position: absolute;
+  background: url(hero-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */

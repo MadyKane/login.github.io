@@ -1,0 +1,15 @@
+@import "global";
+@import "variables";
+@import "login";
+@import "header";
+main {
+    height: calc(100vh - 70px);
+    width: 100%;
+    .hero-image {
+        position: absolute;
+        background: url(hero-image.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
